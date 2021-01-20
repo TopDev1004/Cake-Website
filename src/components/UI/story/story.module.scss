@@ -1,0 +1,56 @@
+.story{
+    background-image: url(../../../photos/story-bg4.jpg);
+    padding-bottom: 10rem;
+    background-size: cover;
+    background-position: top right;
+    
+    img{
+        width: 30%;
+        height: auto;
+        transform: rotate(90deg) translateY(5rem);
+        @media only screen and (max-width:35em) {width: 45%;align-self: start;}
+    }
+}
+.storyText{
+    width: 30%;
+    @media only screen and (max-width:70em) {width: 50%;}
+    @media only screen and (max-width:35em) {width: 65%;}
+
+}
+.storyBox{
+    display: flex;
+    align-items: center;
+    @media only screen and (max-width:35em) {flex-direction: column;}
+}
+
+.infos{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    h3{padding-top: .5rem;}
+    i{margin:0 3rem;}
+    padding:5rem 0 12rem 0;
+    @media only screen and (max-width:70em) {width: 60%;}
+    @media only screen and (max-width:40em) {width: 85%;}
+    @media only screen and (max-width:30em) {flex-direction: column-reverse;}
+
+}
+
+.box{
+    max-width: 23%;
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 1rem 4rem rgba(10, 10, 10, 0.144);
+    border-radius: 0 30px;
+    background-color: rgba(255, 255, 255, 0.795);
+    @media only screen and (max-width:30em) {max-width: initial; margin-bottom: 4rem;}
+    i{
+        // color: $color-primary;
+        font-size: 4rem;
+    }
+
+}

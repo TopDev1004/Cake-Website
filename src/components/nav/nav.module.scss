@@ -1,0 +1,43 @@
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    height: 8rem;
+    @media only screen and (max-width:45em) {height: 6rem;}
+}
+.start{
+    width: max-content;
+    text-align: center;
+    background-color: #fd706b;
+    height: 100%;
+    border-radius: 0 0 0 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.7rem;
+    cursor: pointer;
+    padding: 0 3rem;
+    @media only screen and (max-width:45em) {padding: 0 2rem;}
+}
+.list{
+    list-style: none;
+    display: flex;
+    flex:  0 0 30%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    @media only screen and (max-width:55em) {display: none;}
+}
+
+.logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: 'Mali', cursive;
+    color: black;
+    padding:4rem 3rem 3rem 6rem;
+    color: #633e3d;
+    align-self: center;
+    @media only screen and (max-width:45em) {padding:3rem 1rem 2rem 5rem;}
+}
